@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOĞA</title>
+    <!-- bootstap still -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    .carousel-item{
+        height: 450px;
+    }
+    .car-img{
+      height:100%;  
+    }
+</style>
+
+
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/"><h2>Nature</h2></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sign.html">Sign Up</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" 
+              type="search" 
+              placeholder="Make a call"
+               aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <!--main content  -->
+      <div id="carouselExampleCaptions" class="carousel slide ">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/banner1.jpg" class="d-block w-100 car-img" alt="...">
+            <div class="carousel-caption ">
+              <h5>join us</h5>
+              <a class="btn btn-success" href="sign.html">register now</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner2.jpg" class="d-block w-100 car-img" alt="...">
+            <div class="carousel-caption ">
+                <h5>join us</h5>
+                <a class="btn btn-success" href="sign.html">register now</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner3.jpg" class="d-block w-100 car-img" alt="...">
+            <div class="carousel-caption ">
+                <h5>join us</h5>
+                <a class="btn btn-success" href="sign.html">register now</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- iconslar and information area -->
+      <div class="container px-4 py-5">
+        <h2 class="border-bottom pb-2 ">What Will You See?</h2>
+        <div class="row row-cols-1 row-cols-lg-3">
+            <!-- column -->
+          <div class="col d-flex my-4 ">
+          <img src="images/bookmark.png" width="45px" height="45px">
+            <div>
+                <h3 class="fs-2">Travel Guides</h3>
+                <p> We provide travel guides about different countries and cities.
+                    Information on what to consider when traveling. Most
+                    popular tourist attractions and hidden places
+                    We have suggestions to help you discover.</p>
+                    <a href="#" class="btn btn-primary"> Read More</a>
+            </div>
+          </div>  
+
+          <div class="col d-flex my-4 ">
+            <img src="images/location.png" width="45px" height="45px">
+              <div>
+                  <h3 class="fs-2">Nature Walks</h3>
+                  <p>About the best trails and parks for great nature walks
+                    informations. About the materials you may need on the walks
+                    Suggestions. To protect natural life during nature walks
+                    measures you can take.</p>
+                      <a href="#" class="btn btn-primary"> Read More</a>
+              </div>
+            </div>  
+
+            <div class="col d-flex my-4 ">
+                <img src="images/Chat.png" width="45px" height="45px">
+                  <div>
+                      <h3 class="fs-2">Nature Photography</h3>
+                      <p> Nature photography to capture natural beauty
+                        tips. Photographing natural life as well as natural landscapes
+                        techniques. About the best cameras and gear
+                        informations.</p>
+                          <a href="#" class="btn btn-primary"> Read More</a>
+                  </div>
+                </div>  
+             <!-- column end -->   
+        </div>
+      </div>
+
+      <!-- info boxes -->
+      <div class="container my-5">
+        <div class="p-5 mb-4 bg-light rounded"> 
+          <h1 class="fw-bold">Sustainable Travel</h1>
+          <p class="fs-5 col-md-8">Articles emphasizing the importance of sustainable tourism while traveling.
+            You can take to ensure the protection of natural areas and the environment.
+            measures. How you can reduce your carbon footprint while traveling
+            information about.</p>
+            <button class="btn btn-primary btn-md">Advance</button>
+        </div>
+        <div class="row">
+          <!--column  -->
+          <div class="col-md-6">
+            <div class="p-5 text-bg-dark rounded-3 ">
+             <h2>Natural Health and Wellbeing</h2>
+             <p>Articles highlighting the health benefits of nature. Natural
+              Information about treatment methods and natural nutritional supplements.
+              Health and well-being of practicing meditation and yoga in natural settings
+              information about its benefits.</p>
+              <button class="btn btn-outline-light">Advance</button>
+            </div>
+          </div>
+          <!-- column -->
+          <div class="col-md-6">
+            <div class="p-5 bg-light rounded-3">
+              <h2>Everything About Vehicle Top Tent</h2>
+              <p>In this article, we will talk about everything that comes to mind, 
+                such as how to choose a vehicle top tent, which car it fits,
+                 how to install it, what are the types of vehicle top tents, 
+                 the pros and cons of the vehicle top tent</p>
+                 <button class="btn btn-outline-secondary">Advance</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    <!-- Footer -->
+    <div class="container">
+        <footer class="d-flex justify-content-between border-top my-5 pt-3">
+        <p> &copy; 2023 All Rights Reserved</p>
+        <div class="d-flex">
+            <a class="nav-link mx-2" href="/">Home</a>
+            <a class="nav-link mx-2" href="blog.html">Blog</a>
+            <a class="nav-link mx-2" href="sign.html">Sign Up</a>
+        </div>
+        </footer>
+    </div>  
+
+<!-- script dosyası -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+</body>
+</html>
